@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.parent-flex{
+    margin-top: 8px;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+
+.child-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(212, 152, 78);
+    font-size: 25px;
+    width: 150px;
+    height: 40px;
+}
+
+.child-btn-1{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(168, 85, 85);
+    font-size: 25px;
+    width: 150px;
+    height: 40px;
+}
+
+.child-btn:hover{
+    color: bisque;
+    scale: 1.1;
+    background-color: rgb(61, 224, 170);
+}
+
+
+.child-btn-1:hover{
+    color: rgb(150, 228, 138);
+    scale: 1.1;
+    background-color: rgb(145, 77, 209);
+}
+
+
+.submit-btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(156, 192, 27);
+    margin-top: 15px;
+}
+
+.flex-form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-form input{
+    width: 200px;
+    padding: 7px;
+}
+
+.flex-form label{
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+
+
+.disabled-input:disabled{
+    border-radius: 5px;
+    color: bisque;
+    border: 1px solid red;
+}
+
+.required-input:required{
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+.focus-input{
+    border: 1px solid rgb(47, 0, 255);
+    border-radius: 5px;
+}
+
+.focus-input:focus{
+    border: 1px solid green;
+    color: red;
+    border-radius: 5px;
+    background-color: aqua;
+}
